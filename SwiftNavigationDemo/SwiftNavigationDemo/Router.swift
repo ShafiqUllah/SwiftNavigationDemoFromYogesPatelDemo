@@ -11,7 +11,6 @@ import SwiftUI
 final class Router: ObservableObject{
     
 //    @Published var navPath = NavigationPath()
-    //@Published var navPath : [Destination] = []
     @Published var stacks: [Destination] = []
     @Published var root: RootFlow = .login
     
